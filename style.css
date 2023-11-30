@@ -66,13 +66,13 @@ body {
 
 .bienvenida {
     background-color: rgb(65, 65, 65);
-    height: 400px;
+    height: 600px;
     padding: 13%;
 }
 
 .titulo {
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     padding: 40px;
     color: rgb(238, 236, 236);
     font-weight: bold;
@@ -81,7 +81,7 @@ body {
 
 .texto {
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
     color: rgb(238, 236, 236);
     padding-bottom: 40px;
     margin: 0;
@@ -154,7 +154,6 @@ body {
 .libro {
     display: flex;
     justify-content: center;
-    
 }
 
 .libro img {
@@ -214,6 +213,7 @@ body {
 .carrito-vacio {
     color:  rgb(238, 236, 236);
     padding: 20px;
+    font-size: 25px;
 }
 
 .contenedor-carrito {
@@ -287,6 +287,9 @@ body {
     width: 150px;
     font-size: 12px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
 }
 
 #vaciar-carrito:hover, #carrito-comprar:hover {
@@ -294,16 +297,15 @@ body {
     transition: all 1s;
 }
 
-#carrito-comprar {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
 #carrito-total {
     display: flex;
     background-color: rgb(80, 80, 80);
     padding: 10px;
     color:  rgb(238, 236, 236);
-    height: 40px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
 }
 
 .carrito-btn-right {
